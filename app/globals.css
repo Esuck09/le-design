@@ -748,12 +748,15 @@ footer {
 }
 
 .footer-brand {
+  align-items: center;
+  display: inline-flex;
   justify-self: start;
 }
 
 .footer-brand img {
+  height: auto;
   mix-blend-mode: multiply;
-  width: 155px;
+  width: clamp(145px, 11vw, 175px);
 }
 
 footer p,
