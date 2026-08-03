@@ -20,7 +20,7 @@ const projects = [
   },
   {
     number: "02",
-    title: "CK & Jess",
+    title: "The Collector's House",
     subtitle: "Playful calm",
     type: "Residential concept",
     location: "Selangor, Malaysia",
@@ -28,12 +28,12 @@ const projects = [
       "A bright, personality-led home that balances collectables and colour with a calm architectural shell, warm light and generous built-ins.",
     mainImage: "/projects/ckj-living.jpg",
     detailImage: "/projects/ckj-studio.jpg",
-    mainAlt: "Warm modern living and kitchen space for CK and Jess",
-    detailAlt: "Bright collectables studio designed for CK and Jess",
+    mainAlt: "Warm modern living and kitchen space at The Collector's House",
+    detailAlt: "Bright collectables studio at The Collector's House",
   },
   {
     number: "03",
-    title: "Mr Teoh Residence",
+    title: "Nocturne Residence",
     subtitle: "Sculpted after dark",
     type: "Residential concept",
     location: "Selangor, Malaysia",
@@ -41,8 +41,8 @@ const projects = [
       "Dark stone, bronze light and precise joinery bring a cinematic edge to this home, with every display considered as part of the architecture.",
     mainImage: "/projects/teoh-bar.jpg",
     detailImage: "/projects/teoh-foyer.jpg",
-    mainAlt: "Illuminated home bar and display at Mr Teoh Residence",
-    detailAlt: "Stone feature wall and entrance foyer at Mr Teoh Residence",
+    mainAlt: "Illuminated home bar and display at Nocturne Residence",
+    detailAlt: "Stone feature wall and entrance foyer at Nocturne Residence",
   },
 ];
 
@@ -126,7 +126,7 @@ export default function Home() {
           <figure>
             <Image
               src={asset("/projects/teoh-bar.jpg")}
-              alt="Warmly illuminated custom bar at Mr Teoh Residence"
+              alt="Warmly illuminated custom bar at Nocturne Residence"
               width="1260"
               height="838"
               fetchPriority="high"
